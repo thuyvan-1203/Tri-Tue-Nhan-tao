@@ -1,0 +1,208 @@
+/* Banner slide content */
+.carousel-container {
+  width: 100%;
+  margin: 20px auto;
+  margin-top: 80px; 
+}
+
+.carousel-inner .carousel-item {
+  height: 600px; 
+}
+
+.carousel-inner .carousel-item img {
+  height: 100%;
+  object-fit: cover; 
+}
+
+.carousel-caption{
+  display: inline-block;
+  text-align: center;
+}
+
+.carousel-caption h4{
+  font-size: 32px;
+}
+
+/* Head content */
+.head-content-container{
+  text-align: center;
+}
+
+.head-content-container img{
+  width: 100px;
+  height: 100px;
+  margin-top: -60px; 
+  margin-bottom: 30px;
+}
+
+.head-content-container h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.head-content-container p{
+  color: #555;
+  margin-top: 10px;
+  display: inline-block;
+  width: 50%;
+}
+
+/* Home new arrival */
+.new-arrival{
+  text-align: center;
+}
+
+.home-product{
+  margin : 20px auto;
+}
+
+.home-product-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.home-product-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.home-product-item__img {
+  transition: filter 0.3s ease;
+}
+
+.home-product-item:hover .home-product-item__img {
+  filter: brightness(1.1);
+}
+
+.see-more{
+  margin: 5px auto;
+}
+
+.see-more a{
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.see-more a:hover{
+  color: black;
+  text-decoration: 0.5px underline;
+}
+
+/* Art pic */
+.art-wrapper {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: -100px;
+}
+
+.art-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.art-pics {
+  display: flex;
+  gap: 15px;
+  max-width: 50%; /* Limit the width of the image container */
+}
+
+.art-pic-1, .art-pic-2 {
+  width: 100%;
+  max-width: 300px; /* Adjust this to make images smaller */
+}
+
+.art-pic-1 img, .art-pic-2 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+.art-pic-1 img{
+  margin-top: -50px;
+}
+
+.art-pic-2 img{
+  margin-top: 50px;
+}
+
+.art-words {
+  flex: 1;
+  padding: 20px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.art-words .art-words-1, .art-words .art-words-2, .art-words .art-words-3 {
+  margin-top: 50px;
+}
+
+/*Middle content 1 */
+.middle-content-1 .content-container{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.middle-content-1 .content-container .custom-content-1{
+  box-sizing: border-box;
+  padding: 15px;
+  margin-left: 20px ;
+}
+
+.middle-content-1 .content-container .custom-content-2 {
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 15px;
+  width: 100%;  /* Hoặc giá trị cụ thể như 600px */
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+/*Middle content 2 */
+.middle-content-2 .content-container{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.middle-content-2 .content-container .custom-content-2{
+  box-sizing: border-box;
+  padding: 15px;
+  margin-right: 20px;
+}
+
+.middle-content-2 .content-container .custom-content-1 {
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 15px;
+  width: 100%;  /* Hoặc giá trị cụ thể như 600px */
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

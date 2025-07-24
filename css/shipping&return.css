@@ -1,0 +1,152 @@
+/* Reset CSS */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+   
+   /* Body Styling */
+   
+   nav a {
+     margin: 0 1rem;
+     text-decoration: none;
+     color: #000;
+     font-weight: 500;
+     transition: color 0.3s;
+   }
+   
+   nav a:hover {
+     color: #2d8cf0;
+   }
+   
+   /* Main Container */
+   .container {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 3rem 2rem;
+     gap: 2rem;
+   }
+   
+   /* Left Panel */
+   .left-panel {
+     flex: 1 1 300px;
+     font-size: 3rem;
+     font-weight: 700;
+     padding: 2rem;
+     background-color: #fff;
+     border-radius: 12px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+     height: fit-content;
+   }
+   
+   /* Right Panel */
+   .right-panel {
+     flex: 3 1 600px;
+     background-color: #fff;
+     border-radius: 12px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+     padding: 2rem;
+   }
+   
+   .section-title {
+     font-size: 1.4rem;
+     font-weight: 600;
+     color: #000;
+     margin: 2rem 0 1rem;
+     border-bottom: 2px solid #000;
+     padding-bottom: 0.5rem;
+   }
+   
+   /* Accordion */
+   .accordion-item {
+     border-bottom: 1px solid #e0e0e0;
+     padding: 1rem 0;
+   }
+   
+   .accordion-header {
+     cursor: pointer;
+     font-weight: 500;
+     color: #000;
+     transition: color 0.3s;
+   }
+   
+   .accordion-header:hover {
+     color: #2d8cf0;
+   }
+   
+   .accordion-body {
+     display: none;
+     padding: 1rem 0;
+     font-size: 0.95rem;
+     color: #555;
+     line-height: 1.6;
+   }
+   
+   .accordion-item.active .accordion-body {
+     display: block;
+   }
+   
+   /* Footer */
+   footer {
+     background-color: #f2f2f2;
+     padding: 2rem;
+     margin-top: 3rem;
+   }
+   
+   .footer-container {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+     gap: 2rem;
+     border-top: 1px solid #ccc;
+   }
+   
+   .footer-container > div {
+     padding-right: 1.5rem;
+     border-right: 1px solid #ccc;
+   }
+   
+   .footer-container > div:last-child {
+     border-right: none;
+     padding-right: 0;
+   }
+   
+   .footer-logo {
+     font-size: 1.5rem;
+     font-weight: bold;
+     color: #000;
+   }
+   
+   .footer-section h4 {
+     font-size: 1.1rem;
+     margin-bottom: 1rem;
+     color: #000;
+   }
+   
+   .footer-section ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+   }
+   
+   .footer-section ul li {
+     margin-bottom: 0.5rem;
+   }
+   
+   .footer-section ul li a {
+     text-decoration: none;
+     color: #000;
+     font-size: 0.95rem;
+     transition: color 0.3s;
+   }
+   
+   .footer-section ul li a:hover {
+     color: #2d8cf0;
+   }
+   
+   .footer-bottom {
+     text-align: center;
+     margin-top: 2rem;
+     font-size: 0.9rem;
+     color: #555;
+   }
+   

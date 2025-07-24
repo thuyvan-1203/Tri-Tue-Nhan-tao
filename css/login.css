@@ -1,0 +1,130 @@
+body {
+     font-family: Arial, sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background: url("../img/login_pic.jpg") no-repeat center center/cover;
+     body {
+       background-image: url("background.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       animation: moveBackground 30s linear infinite;
+     }
+
+     @keyframes moveBackground {
+       0% {
+         background-position: 0% 50%;
+       }
+       100% {
+         background-position: 100% 50%;
+       }
+     }
+
+     .account-box {
+       max-width: 600px;
+       background: rgba(255, 255, 255, 0.2);
+       backdrop-filter: blur(10px);
+       -webkit-backdrop-filter: blur(10px);
+       padding: 20px;
+       border-radius: 10px;
+       box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+       border: 1px solid rgba(255, 255, 255, 0.3);
+     }
+   }
+   .container {
+     background: rgba(230, 223, 223, 0.6);
+     padding: 80px; 
+     border-radius: 8px;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+     width: 350px; 
+     animation: fadeIn 1s ease-in-out;
+   }
+   h2 {
+     text-align: center;
+     font-size: 60px; 
+   }
+   input {
+     padding: 16px; 
+     margin: 16px 0;
+     font-size: 40px; 
+   }
+   button {
+     padding: 16px; 
+     font-size: 10px; 
+   }
+   h2 {
+     text-align: center;
+     font-size: 30px;
+   }
+   label {
+     font-weight: bold;
+   }
+   input {
+     width: 100%;
+     padding: 12px;
+     margin: 12px 0;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     font-size: 16px;
+   }
+   .login_button {
+     width: 100%;
+     padding: 12px;
+     background: rgb(172, 143, 105);
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+     transition: background 0.05s ease-in-out;
+   }
+   .login_button:hover {
+     background: rgb(99, 78, 54);
+   }
+   .options {
+     font-size: 16px;
+     text-align: center; 
+     margin-top: 10px; 
+   }
+   .options label {
+     display: flex;
+     align-items: center;
+   }
+   .register {
+     text-align: center;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     font-size: 16px;
+   }
+
+   a[href="./index.php"] {
+     text-align: center;
+   }
+
+   @keyframes fadeIn {
+     from {
+       opacity: 0;
+       transform: translateY(20px);
+     }
+     to {
+       opacity: 1;
+       transform: translateY(0);
+     }
+   }
+
+   .remember-me-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .remember-me-container label {
+    margin-right: 10px;
+  }
+  
+  #remember_me {
+    width: auto;
+    margin: 0;
+  }

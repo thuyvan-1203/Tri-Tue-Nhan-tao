@@ -1,0 +1,70 @@
+body {
+     background-image: url("../img/register_pic.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     animation: moveBackground 30s linear infinite;
+   }
+
+   @keyframes moveBackground {
+     0% {
+       background-position: 0% 50%;
+     }
+     100% {
+       background-position: 100% 50%;
+     }
+   }
+
+   .account-box {
+     max-width: 70%;
+     width: 450px;
+     background: rgba(255, 255, 255, 0.95);
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+     border: 2px solid #ccc;
+   }
+
+   .account-box h2 {
+     color: #333;
+   }
+
+   .account-box input {
+     border: 1px solid #ccc;
+     padding: 8px;
+     border-radius: 5px;
+     width: 100%;
+   }
+
+   .account-box button {
+     background: #825423;
+     color: white;
+     font-weight: bold;
+     padding: 12px;
+     border-radius: 5px;
+     width: 100%;
+     transition: background 0.3s;
+   }
+
+   .account-box button:hover {
+     background: #0056b3;
+   }
+
+   .social-login {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     margin-top: 10px;
+   }
+
+   .social-login button {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 12px;
+     border-radius: 5px;
+     font-weight: bold;
+     border: none;
+     cursor: pointer;
+     transition: opacity 0.3s;
+   }
